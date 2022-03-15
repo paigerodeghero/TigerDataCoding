@@ -4,7 +4,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 # Tiger Data Coding Tool
 <!-- ABOUT THE PROJECT -->
@@ -38,7 +37,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-Kita Pairojtanachai (Chris) | [GitHub] (https://github.com/KitaPDev) | [@LinkedIn] (https://www.linkedin.com/in/chris-kpc/) | [Email] (kita.pairojtanachai@gmail.com)
+Kita Pairojtanachai (Chris) | [GitHub](https://github.com/KitaPDev) | [@LinkedIn](https://www.linkedin.com/in/chris-kpc/) | [Email](kita.pairojtanachai@gmail.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
