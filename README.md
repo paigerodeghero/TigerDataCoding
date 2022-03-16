@@ -17,6 +17,13 @@
 * [TailwindCSS](https://tailwindcss.com)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/paigerodeghero/TigerDataCoding/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -38,6 +45,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 Kita Pairojtanachai (Chris) | [GitHub](https://github.com/KitaPDev) | [@LinkedIn](https://www.linkedin.com/in/chris-kpc/) | [Email](kita.pairojtanachai@gmail.com)
+Roger Rivas | [GitHub](https://github.com/rogersmithr) | [@LinkedIn](https://www.linkedin.com/in/rogersmithr/) | [Email](roger.rivas.guevara@gmail.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
