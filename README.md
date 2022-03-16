@@ -45,6 +45,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 Kita Pairojtanachai (Chris) | [GitHub](https://github.com/KitaPDev) | [@LinkedIn](https://www.linkedin.com/in/chris-kpc/) | [Email](kita.pairojtanachai@gmail.com)
+
 Roger Rivas | [GitHub](https://github.com/rogersmithr) | [@LinkedIn](https://www.linkedin.com/in/rogersmithr/) | [Email](roger.rivas.guevara@gmail.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
