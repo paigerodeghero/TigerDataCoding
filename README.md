@@ -15,6 +15,7 @@
 * [TypeScript](https://www.typescriptlang.org)
 * [React.js](https://reactjs.org/)
 * [TailwindCSS](https://tailwindcss.com)
+* [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
