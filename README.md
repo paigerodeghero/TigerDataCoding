@@ -48,6 +48,8 @@ Kita Pairojtanachai (Chris) | [GitHub](https://github.com/KitaPDev) | [@LinkedIn
 
 Roger Rivas | [GitHub](https://github.com/rogersmithr) | [@LinkedIn](https://www.linkedin.com/in/rogersmithr/) | [Email](roger.rivas.guevara@gmail.com)
 
+Nikhil Suresh | [GitHub](https://github.com/nik1097/) | [@LinedIn](https://www.linkedin.com/in/nikhil-suresh97/) | [Email](nikhilsuresh097@gmail.com)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
