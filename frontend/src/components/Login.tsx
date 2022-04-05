@@ -1,4 +1,4 @@
-import tiger from './tiger.png';
+import tiger from '../assets/logo.png';
 
 function Login() {
   return (
