@@ -52,6 +52,8 @@ Roger Rivas | [GitHub](https://github.com/rogersmithr) | [@LinkedIn](https://www
 Nikhil Suresh | [GitHub](https://github.com/nik1097/) | [@LinedIn](https://www.linkedin.com/in/nikhil-suresh97/) | [Email](nikhilsuresh097@gmail.com)
 
 Rishav Karanjit | [Github](https://github.com/rishav-karanjit) | [@LinkedIn](https://www.linkedin.com/in/rishavkaranjit/) | [Email](mailto:karanjitrishav4@gmail.com)
+
+Sangamesh Itagi | [Github](https://github.com/SangameshItagi) | [@LinkedIn](https://www.linkedin.com/in/sangamesh-itagi-57ab09135/) | [Email](mailto:itagi.sangamesh@gmail.com)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
