@@ -17,7 +17,6 @@ def logout():
 @auth.route('/sign-up', methods=['POST'])
 def sign_up():
     email = request.form.get('email')
-    first_name = request.form.get('firstName')
     password = request.form.get('password')
 
     new_user = User(email=email, password=password)

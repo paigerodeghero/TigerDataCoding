@@ -9,8 +9,6 @@ class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key = True)
     email = db.Column(db.String(150), unique = True, nullable = False)
     password = db.Column(db.String(150), nullable = False)
-    firstName = db.Column(db.String(150), nullable = False)
-    lastName = db.Column(db.String(150), nullable = False)
     date = db.Column(db.DateTime(timezone = True), default = func.now(), nullable = False) # current timestamp returned
     isEmailVerified = db.Column(db.Boolean, default=False, nullable = False)
     
