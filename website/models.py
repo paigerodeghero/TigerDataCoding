@@ -18,6 +18,9 @@ class User(db.Model, UserMixin):
     datasetuserpermission = db.relationship('DatasetUserPermission')
     dataset = db.relationship('Dataset')
 
+    def as_dict(self):
+        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
+
 # code book schema
 class Codebook(db.Model):
     id = db.Column(db.Integer, primary_key = True)
