@@ -45,11 +45,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-Kita Pairojtanachai (Chris) | [GitHub](https://github.com/KitaPDev) | [@LinkedIn](https://www.linkedin.com/in/chris-kpc/) | [Email](kita.pairojtanachai@gmail.com)
+Kita Pairojtanachai (Chris) | [GitHub](https://github.com/KitaPDev) | [@LinkedIn](https://www.linkedin.com/in/chris-kpc/) | [Email](mailto:kita.pairojtanachai@gmail.com)
 
-Roger Rivas | [GitHub](https://github.com/rogersmithr) | [@LinkedIn](https://www.linkedin.com/in/rogersmithr/) | [Email](roger.rivas.guevara@gmail.com)
+Roger Rivas | [GitHub](https://github.com/rogersmithr) | [@LinkedIn](https://www.linkedin.com/in/rogersmithr/) | [Email](mailto:roger.rivas.guevara@gmail.com)
 
-Nikhil Suresh | [GitHub](https://github.com/nik1097/) | [@LinedIn](https://www.linkedin.com/in/nikhil-suresh97/) | [Email](nikhilsuresh097@gmail.com)
+Nikhil Suresh | [GitHub](https://github.com/nik1097/) | [@LinkedIn](https://www.linkedin.com/in/nikhil-suresh97/) | [Email](mailto:nikhilsuresh097@gmail.com)
 
 Rishav Karanjit | [Github](https://github.com/rishav-karanjit) | [@LinkedIn](https://www.linkedin.com/in/rishavkaranjit/) | [Email](mailto:karanjitrishav4@gmail.com)
 
