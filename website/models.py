@@ -1,5 +1,6 @@
 # stores all the database models
 
+from cProfile import label
 from . import db # from current folder the db object
 from flask_login import UserMixin # custom class inhertied for flask login
 from sqlalchemy.sql import func
@@ -15,6 +16,7 @@ class User(db.Model, UserMixin):
     codebook = db.relationship('Codebook')
     datasetuserpermission = db.relationship('DatasetUserPermission')
     dataset = db.relationship('Dataset')
+    datasetrow = db.relationship('DatasetRow')
 
     def as_dict(self):
         return {c.name: getattr(self, c.name) for c in self.__table__.columns}
@@ -22,6 +24,8 @@ class User(db.Model, UserMixin):
 # code book schema
 class Codebook(db.Model):
     id = db.Column(db.Integer, primary_key = True)
+    label = db.Column(db.String(250), nullable = False)
+    description = db.Column(db.String(350), nullable = False)
     isPrivate = db.Column(db.Boolean, default=False, nullable = False)
     ownerId = db.Column(db.Integer, db.ForeignKey('user.id')) # lower case must for foreign key reference
     
@@ -31,8 +35,9 @@ class Codebook(db.Model):
 # code schema
 class Code(db.Model):
     id = db.Column(db.Integer, primary_key = True)
+    code = db.Column(db.String(350), nullable = False)
     description = db.Column(db.String(350), nullable = False)
-    example = db.Column(db.String(150), nullable = False)
+    examples = db.Column(db.String(150), nullable = False)
     notes = db.Column(db.String(150), nullable = False)
     codeBookId = db.Column(db.Integer, db.ForeignKey('codebook.id'))
 
@@ -48,6 +53,7 @@ class Permission(db.Model):
 # dataset schema
 class Dataset(db.Model):
     id = db.Column(db.Integer, primary_key = True)
+    label = db.Column(db.String(250), nullable = False)
     isPrivate = db.Column(db.Boolean, default=False, nullable = False)
     userId = db.Column(db.Integer, db.ForeignKey('user.id'))
     codeBookId = db.Column(db.Integer, db.ForeignKey('codebook.id'))
@@ -79,9 +85,10 @@ class DatasetRow(db.Model):
     order = db.Column(db.Integer, nullable = False)
     datasetId = db.Column(db.Integer, db.ForeignKey('dataset.id'))
     codeId = db.Column(db.Integer, db.ForeignKey('code.id'))
-    # coderId ?
+    coderId = db.Column(db.Integer, db.ForeignKey('user.id'))
 
     datasetcell = db.relationship('DatasetCell')
+    
 
 class DatasetColumn(db.Model):
     id = db.Column(db.Integer, primary_key = True)
