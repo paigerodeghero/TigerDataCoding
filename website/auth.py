@@ -3,6 +3,8 @@
 from flask import Blueprint, request, jsonify
 from .models import User
 from . import db
+from flask import redirect, url_for
+from flask_login import logout_user
 
 auth = Blueprint('auth', __name__)
 
@@ -30,3 +32,9 @@ def sign_up():
         db.session.close()
     user = User.query.filter_by(email=email).first()
     return user.as_dict()
+
+@auth.route('/signout')
+def signout():
+    logout_user()
+
+    return redirect(url_for('login'))
