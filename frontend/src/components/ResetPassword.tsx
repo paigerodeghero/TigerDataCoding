@@ -1,6 +1,12 @@
 import tiger from '../assets/logo.png';
+import { useNavigate } from 'react-router-dom';
 
 function ResetPassword() {
+  const navigate = useNavigate();
+
+  const goToLogin = () => {
+    navigate('/login');
+  }
   return (
     <div className="min-h-screen bg-gray-100 text-gray-800 antialiased px-4 flex flex-col justify-center">
       <div className="relative py-3 sm:max-w-xl mx-auto text-center">
@@ -28,6 +34,7 @@ function ResetPassword() {
             <a
               href="#"
               className="text-sm hover:underline grid place-items-center v-screen text-white mt-2"
+              onClick={goToLogin}
             >
               Back to Login
             </a>

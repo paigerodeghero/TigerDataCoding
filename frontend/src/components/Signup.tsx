@@ -1,8 +1,14 @@
 import tiger from '../assets/logo.png';
+import { useNavigate } from 'react-router-dom';
 
 function Signup() {
+  const navigate = useNavigate();
+
+  const goToLogin = () => {
+    navigate('/login');
+  }
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-800 antialiased px-4 flex flex-col justify-center">
+    <div className="min-h-screen text-gray-800 px-4 flex">
       <div className="relative py-3 sm:max-w-xl mx-auto text-center">
         <img
           src={tiger}
@@ -11,7 +17,10 @@ function Signup() {
         <span className="text-2xl font-light">TIGER DATA CODING TOOL</span>
         <div className="relative mt-5 bg-[#76589C] shadow-md sm:rounded-lg text-left">
           <div className="flex flex-row p-4 mt-3">
-            <button className="basis-1/2 text-center bg-[#452C72] text-white p-2 rounded-l-md">
+            <button
+              className="basis-1/2 text-center bg-[#452C72] text-white p-2 rounded-l-md"
+              onClick={goToLogin}
+            >
               LOGIN
             </button>
             <button className="basis-1/2 text-center bg-[#ED6430] text-white p-2 rounded-r-md">

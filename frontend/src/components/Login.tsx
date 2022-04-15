@@ -1,6 +1,15 @@
 import tiger from '../assets/logo.png';
+import { useNavigate } from 'react-router-dom';
 
 function Login() {
+	const navigate = useNavigate();
+
+	const goToSignup = () => {
+		navigate('/signup');
+	}
+	const goToResetPassword = () => {
+		navigate('/reset-password');
+	}
 	return (
 		<div className="min-h-screen text-gray-800 px-4">
 			<div className="relative py-3 sm:max-w-xl mx-auto text-center">
@@ -15,7 +24,10 @@ function Login() {
 						<button className="basis-1/2 text-center bg-[#ED6430] text-white p-2 rounded-l-md">
 							LOGIN
 						</button>
-						<button className="basis-1/2 text-center bg-[#452C72] text-white p-2 rounded-r-md">
+						<button
+							className="basis-1/2 text-center bg-[#452C72] text-white p-2 rounded-r-md"
+							onClick={goToSignup}
+						>
 							SIGN UP
 						</button>
 					</div>
@@ -41,6 +53,8 @@ function Login() {
 						<a
 							href="#"
 							className="text-white text-sm hover:underline grid place-items-center v-screen"
+							onClick={goToResetPassword}
+
 						>
 							Forgot password?
 						</a>
