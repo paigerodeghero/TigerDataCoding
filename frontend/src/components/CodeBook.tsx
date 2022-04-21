@@ -7,9 +7,6 @@ function CodeBook() {
 	const goToHome = () => {
 		navigate('/home');
 	}
-	const goToSignup = () => {
-		navigate('/signup');
-	}
 
 	return (
 		<div>
@@ -17,7 +14,7 @@ function CodeBook() {
 			<a href="#" onClick={goToHome}>
 		        <div className="flex items-center flex-shrink-0 text-white mr-6">
 		          <img 
-		          	src="tiger.png" 
+		          	src={tiger} 
 		          	width="54" 
 		          	height="54" 
 		          	className="object-contain"></img>
