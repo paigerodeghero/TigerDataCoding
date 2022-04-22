@@ -10,6 +10,9 @@ function Login() {
 	const goToResetPassword = () => {
 		navigate('/reset-password');
 	}
+	const goToMain = () => {
+		navigate('/main');
+	}
 	return (
 		<div className="min-h-screen text-gray-800 px-4">
 			<div className="relative py-3 sm:max-w-xl mx-auto text-center">
@@ -46,6 +49,7 @@ function Login() {
 							<button
 								className="w-1/3 p-2 mt-4 text-white rounded-md bg-[#ED6430] shadow-2xl"
 								type="submit"
+								onClick={goToMain}
 							>
 								LOGIN
 							</button>
