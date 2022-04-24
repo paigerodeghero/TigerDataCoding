@@ -9,11 +9,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from os import path
 
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
-app.config['SECRET_KEY'] = "dfsgkjdsnasdfa safsanjkfbaskjf"
-
-db = SQLAlchemy(app)
+db = SQLAlchemy()
 
 # user table schema
 class User(db.Model, UserMixin):
