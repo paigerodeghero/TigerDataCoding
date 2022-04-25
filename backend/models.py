@@ -1,7 +1,6 @@
 
 # stores all the database models
 
-from cProfile import label
 from flask_login import UserMixin # custom class inhertied for flask login
 from sqlalchemy.sql import func
 
