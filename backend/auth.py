@@ -6,12 +6,27 @@ from . import db
 from flask import redirect, url_for
 from flask_login import logout_user
 from werkzeug.security import generate_password_hash, check_password_hash
+import jwt
+import datetime
 
 auth = Blueprint('auth', __name__)
 
 @auth.route('/login')
 def login():
-    return "<p>Login</p>"
+    email = request.form.get('email')
+    password = request.form.get('password')
+
+    if not email or not password:
+        return make_response('could not verify', 401, {'Authentication': 'login required"'})
+
+    user = Users.query.filter_by(email=email).first()
+
+    if check_password_hash(user.password, password):
+
+        token = jwt.encode({'email' : user.email, 'exp' : datetime.datetime.utcnow() + datetime.timedelta(minutes=45)}, app.config['SECRET_KEY'], "HS256")
+        return jsonify({'token' : token})
+
+    return make_response('could not verify',  401, {'Authentication': '"login required"'})
 
 @auth.route('/logout')
 def logout():
