@@ -5,6 +5,7 @@ from .models import User
 from . import db
 from flask import redirect, url_for
 from flask_login import logout_user
+from werkzeug.security import generate_password_hash, check_password_hash
 
 auth = Blueprint('auth', __name__)
 
@@ -20,8 +21,8 @@ def logout():
 def sign_up():
     email = request.form.get('email')
     password = request.form.get('password')
-
-    new_user = User(email=email, password=password)
+    hashed_password = generate_password_hash(password, method='sha256')
+    new_user = User(email=email, password=hashed_password)
     try:
         db.session.add(new_user)
         db.session.commit()

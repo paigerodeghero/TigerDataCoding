@@ -3,9 +3,11 @@
 
 from flask_login import UserMixin # custom class inhertied for flask login
 from sqlalchemy.sql import func
-
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from werkzeug.security import generate_password_hash, check_password_hash
+import jwt
+import datetime
 from os import path
 
 db = SQLAlchemy()
