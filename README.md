@@ -56,6 +56,11 @@ Rishav Karanjit | [Github](https://github.com/rishav-karanjit) | [@LinkedIn](htt
 Sangamesh Itagi | [Github](https://github.com/SangameshItagi) | [@LinkedIn](https://www.linkedin.com/in/sangamesh-itagi-57ab09135/) | [Email](mailto:itagi.sangamesh@gmail.com)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Scrum Masters
+Frontend: [Rishav karanjit](https://github.com/rishav-karanjit) 
+
+Backend: [Zachary Ikpefua](https://github.com/zikpefu)
+
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
