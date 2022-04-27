@@ -1,3 +1,7 @@
+<h1 align="center"> Tiger Data Coding Tool </h1>
+
+<h4 align="center">
+
 <!-- Project shields -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -5,7 +9,8 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-# Tiger Data Coding Tool
+</h4>
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <!-- TODO:PUT PICTURE OF TOOL HERE -->
