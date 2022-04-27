@@ -62,7 +62,7 @@ class Dataset(db.Model):
     id = db.Column(db.Integer, primary_key = True)
     label = db.Column(db.String(250), nullable = False)
     isPrivate = db.Column(db.Boolean, default=False, nullable = False)
-    userId = db.Column(db.Integer, db.ForeignKey('user.id'))
+    userId = db.Column(db.String(250), db.ForeignKey('user.id'))
     codeBookId = db.Column(db.Integer, db.ForeignKey('codebook.id'))
 
     datasetuserpermission = db.relationship('DatasetUserPermission')
@@ -70,6 +70,9 @@ class Dataset(db.Model):
     datasetusercolumn = db.relationship('DatasetUserColumn')
     datasetrow = db.relationship('DatasetRow')
     datasetcolumn = db.relationship('DatasetColumn')
+
+    def as_dict(self):
+        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
 
 # dataset permission schema
 class DatasetUserPermission(db.Model):
