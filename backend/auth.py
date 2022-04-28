@@ -1,8 +1,8 @@
 # stores the code for the authorization of the website
 
-from flask import Blueprint, request, jsonify
-from .models import User
-from . import db
+from flask import Blueprint, request, jsonify, make_response
+from models import User
+from models import db
 from flask import redirect, url_for
 from flask_login import logout_user
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -11,22 +11,22 @@ import datetime
 
 auth = Blueprint('auth', __name__)
 
-@auth.route('/login')
+@auth.route('/login', methods=['POST'])
 def login():
     email = request.form.get('email')
     password = request.form.get('password')
 
     if not email or not password:
-        return make_response('could not verify', 401, {'Authentication': 'login required"'})
+        return make_response('Could not verify', 401, {'Authentication': 'login required"'})
 
-    user = Users.query.filter_by(email=email).first()
+    user = User.query.filter_by(email=email).first()
 
     if check_password_hash(user.password, password):
 
-        token = jwt.encode({'email' : user.email, 'exp' : datetime.datetime.utcnow() + datetime.timedelta(minutes=45)}, app.config['SECRET_KEY'], "HS256")
+        token = jwt.encode({'email' : user.email, 'exp' : datetime.datetime.utcnow() + datetime.timedelta(minutes=45)}, 'dfsgkjdsnasdfa safsanjkfbaskjf', "HS256")
         return jsonify({'token' : token})
 
-    return make_response('could not verify',  401, {'Authentication': '"login required"'})
+    return make_response('You have entered an invalid username or password',  401, {'Authentication': '"login required"'})
 
 @auth.route('/logout')
 def logout():
@@ -68,8 +68,8 @@ def token_required(f):
             return jsonify({'message': 'a valid token is missing'})
 
         try:
-            data = jwt.decode(token, app.config['SECRET_KEY'], algorithms=["HS256"])
-            current_user = Users.query.filter_by(email=data['email']).first()
+            data = jwt.decode(token, 'dfsgkjdsnasdfa safsanjkfbaskjf', algorithms=["HS256"])
+            current_user = User.query.filter_by(email=data['email']).first()
         except:
             return jsonify({'message': 'token is invalid'})
 
