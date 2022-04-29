@@ -59,6 +59,9 @@ Nikhil Suresh | [GitHub](https://github.com/nik1097/) | [@LinkedIn](https://www.
 Rishav Karanjit | [Github](https://github.com/rishav-karanjit) | [@LinkedIn](https://www.linkedin.com/in/rishavkaranjit/) | [Email](mailto:karanjitrishav4@gmail.com)
 
 Sangamesh Itagi | [Github](https://github.com/SangameshItagi) | [@LinkedIn](https://www.linkedin.com/in/sangamesh-itagi-57ab09135/) | [Email](mailto:itagi.sangamesh@gmail.com)
+
+Vandini Modi | [Github](https://github.com/Vandinimodi1595) | [@LinkedIn](https://www.linkedin.com/in/vandini-modi-7a2860136/) | [Email](mailto:vandini.testing@gmail.com)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Scrum Masters
