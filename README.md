@@ -62,6 +62,8 @@ Sangamesh Itagi | [Github](https://github.com/SangameshItagi) | [@LinkedIn](http
 
 Vandini Modi | [Github](https://github.com/Vandinimodi1595) | [@LinkedIn](https://www.linkedin.com/in/vandini-modi-7a2860136/) | [Email](mailto:vandini.testing@gmail.com)
 
+Mayank Dineshkumar Patel | [Github](https://github.com/mayankdp) | [@LinkedIn](https://www.linkedin.com/in/mpatel-9/) | [Email](mailto:mpatel9.com@gmail.com)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Scrum Masters
