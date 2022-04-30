@@ -9,6 +9,8 @@ import Home from './components/Home';
 import Main from './components/Main';
 import Codebooks from './components/CodeBook';
 import Datasets from './components/DatasetsPage';
+import DatasetConfig from './components/DatasetConfig';
+import DatasetDataPageOwner from './components/Dataset_Data_Page_Owner';
 
 function App() {
 	return (
@@ -24,6 +26,8 @@ function App() {
 						<Route path="/main" element={<Main />} />
 						<Route path="/Codebooks" element={<Codebooks />} />
 						<Route path="/Datasets" element={<Datasets />} />
+						<Route path="/DatasetConfig" element={<DatasetConfig />} />
+						<Route path="/DatasetDataPageOwner" element={<DatasetDataPageOwner />} />
 
 						<Route path="/" element={<Home />} />
 					</Routes>

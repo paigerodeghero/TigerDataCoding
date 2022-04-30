@@ -15,6 +15,10 @@ function DatasetsPage() {
 		navigate('/Datasets');
 	}
 
+	const goToDatasetConfig = () => {
+		navigate('/DatasetConfig');
+	}
+
 	return (
 		<div>
 			<nav className="flex items-center justify-between flex-wrap bg-[#76589C] p-6">
@@ -107,7 +111,10 @@ function DatasetsPage() {
 					</tr>
 				</thead>
 				<tbody>
-					<tr className="border-b hover:bg-[#ED6430]">
+					<tr
+						className="border-b hover:bg-[#ED6430]"
+						onClick={goToDatasetConfig}
+					>
 						<td className="p-4">
 							Test Label 1
 						</td>
@@ -121,7 +128,10 @@ function DatasetsPage() {
 							<input className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer ml-3" type="checkbox" value="" id="flexCheckDefault"></input>
 						</td>
 					</tr>
-					<tr className="border-b hover:bg-[#ED6430]">
+					<tr
+						className="border-b hover:bg-[#ED6430]"
+						onClick={goToDatasetConfig}
+					>
 						<td className="p-4">
 							Test Label 2
 						</td>

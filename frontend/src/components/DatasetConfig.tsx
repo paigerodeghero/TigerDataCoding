@@ -16,6 +16,10 @@ function DatasetConfig() {
 		navigate('/Datasets');
 	}
 
+	const goToViewDatasets = () => {
+		navigate('/DatasetDataPageOwner');
+	}
+
 	return (
 		<div>
 			<nav className="flex items-center justify-between flex-wrap bg-[#76589C] p-6">
@@ -46,14 +50,14 @@ function DatasetConfig() {
 					<div>
 						<a
 							href="#responsive-header"
-							className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 underline"
+							className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
 							onClick={goToCodebooks}
 						>
 							CODEBOOKS
 						</a>
 						<a
 							href="#responsive-header"
-							className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
+							className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 underline"
 							onClick={goToDatasets}
 						>
 							DATASETS
@@ -67,6 +71,7 @@ function DatasetConfig() {
 					<button
 						className="p-2 w-48 mt-4 text-white rounded-md bg-[#ED6430]"
 						id="viewDataset"
+						onClick={goToViewDatasets}
 					>View Dataset</button>
 				</div>
 			</div>
