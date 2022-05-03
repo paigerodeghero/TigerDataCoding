@@ -19,6 +19,7 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#built-with">Built With</a></li>
+    <li><a href="#wireframe">Wireframe</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -51,6 +52,13 @@ This project consists of a web application tool for qualitative and mixed method
 * [React.js](https://reactjs.org/)
 * [TailwindCSS](https://tailwindcss.com)
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- WIREFRAME -->
+## Wireframe
+
+You can see [here in Figma](https://www.figma.com/file/NeaUXJ0WU1Lu8dGCese5VQ/Wireframe?node-id=0%3A1) the full wireframe design.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
