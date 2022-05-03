@@ -1,7 +1,8 @@
 
 # stores all the database models
 
-from flask_login import UserMixin # custom class inhertied for flask login
+#from flask_login import UserMixin # custom class inhertied for flask login
+import flask_login
 from sqlalchemy.sql import func
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
@@ -13,7 +14,7 @@ from os import path
 db = SQLAlchemy()
 
 # user table schema
-class User(db.Model, UserMixin):
+class User(db.Model, flask_login.UserMixin):
     id = db.Column(db.Integer, primary_key = True)
     email = db.Column(db.String(150), unique = True, nullable = False)
     password = db.Column(db.String(150), nullable = False)
@@ -48,6 +49,15 @@ class Code(db.Model):
     notes = db.Column(db.String(150), nullable = False)
     codeBookId = db.Column(db.Integer, db.ForeignKey('codebook.id'))
 
+    datasetrow = db.relationship('DatasetRow')
+
+# statistics schema
+class Statistics(db.Model):
+    id = db.Column(db.Integer, primary_key = True)
+    comment_id = db.Column(db.Integer, db.ForeighnKey('code.id'))
+    code = db.Column(db.String, db.ForeighnKey('code.code'))
+    codeBookId = db.Column(db.Integer, db.ForeignKey('codebook.id'))
+    completion_percentage = (db.Integer, primary_key = True)
     datasetrow = db.relationship('DatasetRow')
 
 # permissions schema
