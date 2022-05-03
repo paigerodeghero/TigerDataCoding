@@ -109,7 +109,7 @@ Chaitanya Mandru | [Github](https://github.com/bittu426) | [@LinkedIn](https://w
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Scrum Masters
-Frontend: [Rishav karanjit](https://github.com/rishav-karanjit) 
+Frontend: Rishav karanjit | [Github](https://github.com/rishav-karanjit) | [@LinkedIn](https://www.linkedin.com/in/rishavkaranjit/) | [Email](mailto:karanjitrishav4@gmail.com)
 
 Backend: Zachary Ikpefua | [Github](https://github.com/zikpefu) | [@LinkedIn](https://www.linkedin.com/in/zikpefua) | [Email](mailto:zikpefu@g.clemson.edu)
 
