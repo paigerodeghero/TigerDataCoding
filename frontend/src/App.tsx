@@ -11,6 +11,7 @@ import Codebooks from './components/CodeBook';
 import Datasets from './components/DatasetsPage';
 import DatasetConfig from './components/DatasetConfig';
 import DatasetDataPageOwner from './components/Dataset_Data_Page_Owner';
+import CodeBookDetails from './components/CodeBookDetails';
 
 function App() {
 	return (
@@ -28,6 +29,7 @@ function App() {
 						<Route path="/Datasets" element={<Datasets />} />
 						<Route path="/DatasetConfig" element={<DatasetConfig />} />
 						<Route path="/DatasetDataPageOwner" element={<DatasetDataPageOwner />} />
+						<Route path="/CodeBookDetails" element={<CodeBookDetails />} />
 
 						<Route path="/" element={<Home />} />
 					</Routes>

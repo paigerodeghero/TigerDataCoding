@@ -16,6 +16,9 @@ function CodeBook() {
 		navigate('/Datasets');
 	}
 
+	const goToCodeBookDetails = () => {
+		navigate('/CodeBookDetails');
+	}
 	return (
 		<div>
 			<nav className="flex items-center justify-between flex-wrap bg-[#76589C] p-6">
@@ -108,7 +111,10 @@ function CodeBook() {
 					</tr>
 				</thead>
 				<tbody>
-					<tr className="border-b hover:bg-[#ED6430]">
+					<tr
+						className="border-b hover:bg-[#ED6430]"
+						onClick={goToCodeBookDetails}
+					>
 						<td className="p-4">
 							Test Label
 						</td>
