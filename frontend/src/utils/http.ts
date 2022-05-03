@@ -25,14 +25,17 @@ instance.interceptors.response.use(
 		if (!resp) {
 			localStorage.clear();
 
-			if (window.location.pathname !== '/login') {
-				window.location.pathname = '/login';
+			if (window.location.pathname !== '/login-signup') {
+				window.location.pathname = '/login-signup';
 				alert(
 					'Unable to connect to the server at this moment. Please try again.'
 				);
 			}
-		} else if (resp.status === 401 && window.location.pathname !== '/login') {
-			window.location.pathname = '/login';
+		} else if (
+			resp.status === 401 &&
+			window.location.pathname !== '/login-signup'
+		) {
+			window.location.pathname = '/login-signup';
 		} else if (resp.status === 403) {
 			if (resp.data) alert(resp.data);
 			else alert('Permission Denied!');

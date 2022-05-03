@@ -3,15 +3,47 @@
 @tailwind utilities;
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.App {
+	@apply min-h-screen;
+}
+
+.btn-toggle {
+	@apply basis-1/2 text-center bg-purple-dark text-white p-2 transition-all
+  hover:bg-orange;
+}
+
+.btn-toggle-active {
+	@apply basis-1/2 text-center bg-orange text-white p-2 font-bold;
+}
+
+.input-login-signup {
+	@apply border w-full h-5 py-5 px-4 rounded-md
+  hover:outline-none 
+  focus:outline-none focus:ring-1 focus:ring-indigo-600;
+}
+
+.btn-1 {
+	@apply w-1/3 p-2 text-white rounded-md bg-orange shadow-2xl transition-all font-semibold
+  hover:bg-purple-dark hover:font-bold;
+}
+
+.block-home {
+	@apply text-white text-4xl font-bold p-6 py-12 rounded-lg w-1/3 hover:opacity-80;
+}
+
+.nav-active {
+	@apply underline font-bold;
 }
