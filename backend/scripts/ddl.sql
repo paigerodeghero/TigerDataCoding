@@ -1,0 +1,1 @@
+-- Define data structure here.
