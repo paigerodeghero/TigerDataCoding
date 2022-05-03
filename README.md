@@ -15,8 +15,19 @@
 ## About The Project
 <!-- TODO:PUT PICTURE OF TOOL HERE -->
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)-->
+The Computer School Graduate students created this project at Clemson University in the “Software Development Methodology” class in Spring 2022. 
+
+This project consists of a web application tool for qualitative and mixed methods data analysis. It is a tool that labels data. For example: "I got a new car" could have the label "Happy."
+
+### Goals
+* Create a tool that helps users identify phrases and mark them with a specific label in Phyton.
+* Facilitate the labeling process for users.
+* Create an open-source project so that the developer community can access the main code.
+* Transparently show how the web application handles the information entered.
+* Expose the programming skills of our students.
 
 ## Built With
+* [Python](https://www.python.org/)
 * [TypeScript](https://www.typescriptlang.org)
 * [React.js](https://reactjs.org/)
 * [TailwindCSS](https://tailwindcss.com)
@@ -75,7 +86,7 @@ Backend: [Zachary Ikpefua](https://github.com/zikpefu)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
+Special thanks to the entire group of master's students in the "Software Development Methodology" class who contributed their time and knowledge to make this project possible.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
