@@ -64,6 +64,8 @@ Vandini Modi | [Github](https://github.com/Vandinimodi1595) | [@LinkedIn](https:
 
 Mayank Dineshkumar Patel | [Github](https://github.com/mayankdp) | [@LinkedIn](https://www.linkedin.com/in/mpatel-9/) | [Email](mailto:mpatel9.com@gmail.com)
 
+Chaitanya Mandru | [Github](https://github.com/bittu426) | [@LinkedIn](https://www.linkedin.com/in/chaitanyamandru) | [Email](mailto:cmandru@g.clemson.edu)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Scrum Masters
