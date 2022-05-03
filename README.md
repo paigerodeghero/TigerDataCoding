@@ -11,6 +11,21 @@
 
 </h4>
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#build-with">Build With</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#scrum-masters">Scrum Masters</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <!-- TODO:PUT PICTURE OF TOOL HERE -->
@@ -26,6 +41,7 @@ This project consists of a web application tool for qualitative and mixed method
 * Transparently show how the web application handles the information entered.
 * Expose the programming skills of our students.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 ## Built With
 * [Python](https://www.python.org/)
 * [TypeScript](https://www.typescriptlang.org)
@@ -34,13 +50,13 @@ This project consists of a web application tool for qualitative and mixed method
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/paigerodeghero/TigerDataCoding/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -53,12 +69,11 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 ## License
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- CONTACT -->
 ## Contact
 Kita Pairojtanachai (Chris) | [GitHub](https://github.com/KitaPDev) | [@LinkedIn](https://www.linkedin.com/in/chris-kpc/) | [Email](mailto:kita.pairojtanachai@gmail.com)
@@ -78,16 +93,17 @@ Mayank Dineshkumar Patel | [Github](https://github.com/mayankdp) | [@LinkedIn](h
 Chaitanya Mandru | [Github](https://github.com/bittu426) | [@LinkedIn](https://www.linkedin.com/in/chaitanyamandru) | [Email](mailto:cmandru@g.clemson.edu)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 ## Scrum Masters
 Frontend: [Rishav karanjit](https://github.com/rishav-karanjit) 
 
 Backend: [Zachary Ikpefua](https://github.com/zikpefu)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 Special thanks to the entire group of master's students in the "Software Development Methodology" class who contributed their time and knowledge to make this project possible.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/paigerodeghero/TigerDataCoding.svg?style=for-the-badge
