@@ -14,6 +14,7 @@ const datasets: DatasetImpl[] = [
 		'label 2',
 		'description 2',
 		new UserImpl(2, 'test2@example.com'),
+		[],
 		true
 	),
 ];
@@ -58,9 +59,7 @@ function Datasets() {
 										focus:outline-none"
 										type="checkbox"
 										checked={ds.isPrivate}
-										onChange={() =>
-											(datasets[i].isPrivate = !datasets[i].isPrivate)
-										}
+										onChange={() => {}}
 									></input>
 								</td>
 							</tr>

@@ -5,6 +5,7 @@ export interface Dataset {
 	label: string;
 	description: string;
 	owner: User;
+	coders: User[];
 	isPrivate: boolean;
 }
 
@@ -13,6 +14,7 @@ export class DatasetImpl implements Dataset {
 	label: string;
 	description: string;
 	owner: User;
+	coders: User[];
 	isPrivate: boolean;
 
 	constructor(
@@ -20,12 +22,14 @@ export class DatasetImpl implements Dataset {
 		label: string,
 		description: string = '',
 		owner: User,
+		coders: User[] = [],
 		isPrivate: boolean = false
 	) {
 		this.id = id;
 		this.label = label;
 		this.description = description;
 		this.owner = owner;
+		this.coders = coders;
 		this.isPrivate = isPrivate;
 	}
 }

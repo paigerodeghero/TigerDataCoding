@@ -64,9 +64,7 @@ function CodeBook() {
 										focus:outline-none"
 										type="checkbox"
 										checked={cb.isPrivate}
-										onChange={() =>
-											(codebooks[i].isPrivate = !codebooks[i].isPrivate)
-										}
+										onChange={() => {}}
 									></input>
 								</td>
 							</tr>
