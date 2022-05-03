@@ -35,7 +35,7 @@
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 The Computer School Graduate students created this project at Clemson University in the “Software Development Methodology” class in Spring 2022. 
 
-This project consists of a web application tool for qualitative and mixed methods data analysis. It is a tool that labels data. For example: "I got a new car" could have the label "Happy."
+This project consists of a web application tool for qualitative and mixed methods data analysis. It is a data labeling tool.
 
 ### Goals
 * Create a tool that helps users identify phrases and mark them with a specific label in Phyton.
