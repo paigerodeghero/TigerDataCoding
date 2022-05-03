@@ -2,38 +2,35 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
-import Login from './components/Login';
-import Signup from './components/Signup';
+import NavBar from './components/Navbar';
+import LoginSignUp from './components/LoginSignup';
 import ResetPassword from './components/ResetPassword';
 import Home from './components/Home';
-import Main from './components/Main';
 import Codebooks from './components/CodeBook';
 import Datasets from './components/DatasetsPage';
 import DatasetConfig from './components/DatasetConfig';
-import DatasetDataPageOwner from './components/Dataset_Data_Page_Owner';
+import DatasetDataPageOwner from './components/DatasetDataPageOwner';
 import CodeBookDetails from './components/CodeBookDetails';
 
 function App() {
 	return (
 		<div className="App">
 			<Router>
-				{/* <NavBar /> */}
-				<div id="wrapper-content">
-					<ScrollToTop />
-					<Routes>
-						<Route path="/login" element={<Login />} />
-						<Route path="/signup" element={<Signup />} />
-						<Route path="/reset-password" element={<ResetPassword />} />
-						<Route path="/main" element={<Main />} />
-						<Route path="/Codebooks" element={<Codebooks />} />
-						<Route path="/Datasets" element={<Datasets />} />
-						<Route path="/DatasetConfig" element={<DatasetConfig />} />
-						<Route path="/DatasetDataPageOwner" element={<DatasetDataPageOwner />} />
-						<Route path="/CodeBookDetails" element={<CodeBookDetails />} />
-
-						<Route path="/" element={<Home />} />
-					</Routes>
-				</div>
+				<NavBar />
+				<ScrollToTop />
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/login-signup" element={<LoginSignUp />} />
+					<Route path="/reset-password" element={<ResetPassword />} />
+					<Route path="/codebooks" element={<Codebooks />} />
+					<Route path="/datasets" element={<Datasets />} />
+					<Route path="/datasetconfig" element={<DatasetConfig />} />
+					<Route
+						path="/datasetdatapageowner"
+						element={<DatasetDataPageOwner />}
+					/>
+					<Route path="/codebookdetails" element={<CodeBookDetails />} />
+				</Routes>
 			</Router>
 		</div>
 	);
