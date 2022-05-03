@@ -1,6 +1,4 @@
-import tiger from '../assets/logo.png';
 import addDataLogo from '../assets/addDataLogo.png';
-import { useNavigate } from 'react-router-dom';
 import Dialog from '@material-ui/core/Dialog';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogActions from '@material-ui/core/DialogActions';
@@ -8,7 +6,6 @@ import Button from '@material-ui/core/Button';
 import { useState } from 'react';
 
 function CodeBookDetails() {
-	const navigate = useNavigate();
 	const [open, setOpen] = useState(false);
 	const [code, setCode] = useState('Test Code');
 	const [description, setDescription] = useState('Test Description');

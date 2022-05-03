@@ -31,12 +31,12 @@ function ResetPassword() {
 							SUBMIT
 						</button>
 					</div>
-					<a
-						className="text-sm hover:underline grid place-items-center v-screen text-white mt-2"
+					<div
+						className="text-sm hover:underline grid place-items-center v-screen text-white mt-2 hover:cursor-pointer"
 						onClick={goToLogin}
 					>
 						Back to Login
-					</a>
+					</div>
 				</div>
 			</div>
 		</div>

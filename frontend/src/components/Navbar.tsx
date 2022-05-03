@@ -31,6 +31,7 @@ function NavBar() {
 							onClick={goToHome}
 						>
 							<img
+								alt="logo"
 								src={logo}
 								className="object-scale-down h-12 object-center mx-auto"
 							></img>
