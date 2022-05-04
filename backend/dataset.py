@@ -13,7 +13,8 @@ dataset = Blueprint('dataset', __name__)
 def upload():
     if request.method == 'POST':
         df = pd.read_csv(request.files.get('file'))
-        return df.to_json()
+        to_json = df.to_json
+        return to_json
 
 @dataset.route('/assign', methods=['POST'])
 def assign():
